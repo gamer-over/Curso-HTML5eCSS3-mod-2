@@ -1,0 +1,52 @@
+body{
+   background-color: dimgrey;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+}
+header{
+   background-color: white;
+   padding:10px;
+   margin:10px;
+}
+nav{
+  background-color: rgb(146, 141, 141);
+  margin: 3px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+  
+}
+nav > a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+#principal{
+    background-color:white;
+    padding:10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#notícias{
+    margin: 10px;
+    background-color:rgb(201, 196, 196);
+}
+aside{
+    margin-top: 30px;
+    background-color:dimgray;
+
+}
+footer{
+    background-color:black;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding:4px;
+    margin:0px;
+}
+footer > p{
+    margin: 0px;
+}
