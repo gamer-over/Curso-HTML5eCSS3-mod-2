@@ -1,63 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+
+/*----------------------------CABEÇALHO----------------------------*/
 body{
     background-color: rgb(115, 247, 166);
-    
-    }
+    width:auto;
+}
+
+
 #inicio{
    background-color:white;
 }
+
+
 #menu{
-    background-image: linear-gradient(to top,rgb(114, 243, 163),rgb(64, 141, 94) );
+    background-image: linear-gradient(to bottom,rgb(112, 218, 152),rgb(53, 121, 79) );
     color: white;
-    margin-top: -27px;
-    margin-right: -7px;
-    margin-left: -8px;
+    width: auto;
+    margin: -7px;
+    
+   
     font-size: 20px;
     font-family: sans-serif;
     padding-top: 40px;
+    padding-bottom: 0px;
     text-align: center;
 }
+ 
+h1#menu{
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+}
+
+
+
+
 h3{
     margin-right: 7px;
 }
+
+
 #botoes{
+    display:inline-block;
+    color: white;
     background-color: rgb(50, 205, 109);
     width:107px;
     text-align: left;
-    color: rgb(5, 80, 55);
     font-size: 19px;
 }
+/*----------------------------//CABEÇALHO-----------------------------------------------------*/
+
+
+
+/*-----------------------------MEIO-----------------------------------------------------------*/
 #idroid{
     background-color: white;
 }
+
+
 #conteudo{
     background-color: white;
-    margin:auto;
-    margin-top: 1px;
-    margin-right: 148px;
-    margin-left: 148px;
+    margin-top: 7px;
+    margin-right: 140px;
+    margin-left: 140px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 19px;
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 20px;
     line-height: 2em;
-    border-radius: 10px
+    border-radius: 0px 0px 10px 10px;
 }
+
+p{
+    text-indent: 20px;
+}
+
+.letras{
+    background-color: rgb(112, 243, 112);
+    color: rgb(2, 77, 2);;
+}
+
+
+
+.letras:hover{
+   text-decoration: underline;
+}
+
+
+
 a{
     background-color: rgb(77, 245, 147);
     color: rgb(2, 77, 2);
     text-decoration: none;
 }
+
+
+
 a:hover{
     text-decoration: underline;
 }
+
+
+
+.video{
+    background-color: rgb(2, 77, 2);
+    padding:19px 78px;
+}
+/*-----------------------------//MEIO-------------------------------------*/
+
+
+
+
+/*----------------------------FINAL---------------------------------------*/
+
+ul{
+    display:inline-block;
+}
+
+
+
+#lista{
+    background-color: rgba(144, 255, 222, 0.438);
+    border-radius: 3px 3px 10px 10px;
+    padding:0px;
+    margin-top: 7px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#aprender{
+    font-size: 19px;
+    background-color: rgb(1, 192, 119);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#lista2{
+    margin-left: 200px;
+}
+
+
+
+.p-lista{
+    line-height: 30px;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+
+
+.p-lista2{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
 footer{
     background-color: rgb(6, 34, 25);
     color: white;
     height: 6px;
     text-align: center;
     padding:10px;
-    margin-bottom: -17px;
-    margin-left: -22px;
-    margin-right: -22px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom: 0%;
+    text-indent: 20px;
 }
+
+/*------------------------------//FINAL--------------------*/
+
+
+

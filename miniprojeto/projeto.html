@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto-Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header id="menu">
-          <h1>Curiosidades de Tecnologia</h1>
-          <h3>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</h3>
+          <h1>Curiosidades De Tecnologia</h1>
+          <h3>Tudo aquilo que você sempre quis saber sobre o mundo</br> Tech, em um único lugar</h3>
           <div id="botoes">
           <div class="botao1">Home</div>
           <div class="botao2">Notícias</div>
@@ -22,16 +26,17 @@
     <main id="conteudo">
         <section id="inicio">
         <h1>História do Mascote do Android</h1>
-        <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+        <p>Provavelmente você sabe que o sistema operacional <mark class="letras">Android</mark>, mantido pelo <mark class="letras">Google</mark> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
         </section>
 
         <section id="idroid">
         <h2>A primeira versão</h2>
-        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/">Dan Morrill</a>. Ele conta que abriu o <a href="#">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/">Dan Morrill &#x1F4CE;</a>. Ele conta que abriu o <a href="#">Inkscape&#x1F4CE;</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
         [FOTO]
             <nav>
                 <picture>
-                    
+                    <source media="(min-width: )" srcset="projeto/imagens/dan-droids-pq.png" type="image/png">
+                    <img src="projeto/imagens/dan-droids.png">
                 </picture>
             </nav>
             <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
@@ -40,21 +45,26 @@
             <h1>Surge um novo mascote</h1>
             <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
             </p>
-            [FOTO]
             <nav>
                 <picture>
-                    
+                    <img src="projeto/imagens/irina-blok.jpg">
                 </picture>
             </nav>
 
             <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
             </p>
-            [FOTO]
+            <picture>
+                <source media="(min-width: 400px )" srcset="projeto/imagens/bugdroid.png" type="image/">
+                <img src="projeto/imagens/bugdroid.png">
+            </picture>
+            
              <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
-            [VIDEO]
+             <div class="video">
+                <iframe width="860" height="515" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
             <div id="lista">
-            <h1>Quer aprender mais? </h1>
+            <h1 id="aprender">Quer aprender mais? </h1>
             <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
             
                 <ul id="lista1">
@@ -76,10 +86,10 @@
                     <li>✔8.0 - Oreo</li>
                     <li>✔9.0 - Pie</li>
                 </ul>
-                <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+                <p class="p-lista">Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p><p class="p-lista2">Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
             </div>
-            <div><p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p></div>
+            <div><p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <mark class="letras">Android</mark> e seu simpático mascote.</p></div>
     </main>
-    <footer>Site criado por: Dã Yaweh para o CursoemVideo</footer>
+    <footer> <p>Site criado por: Dã Yaweh para o CursoemVideo</p></footer>
 </body>
 </html>
